@@ -13,6 +13,8 @@
 		225E4B4E1A12D8A200208FA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 225E4B4D1A12D8A200208FA4 /* Images.xcassets */; };
 		225E4B511A12D8A200208FA4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 225E4B4F1A12D8A200208FA4 /* LaunchScreen.xib */; };
 		225E4B5D1A12D8A200208FA4 /* LemonadeStandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225E4B5C1A12D8A200208FA4 /* LemonadeStandTests.swift */; };
+		225E4B671A16C6F100208FA4 /* Supplies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225E4B661A16C6F100208FA4 /* Supplies.swift */; };
+		225E4B691A16D2BD00208FA4 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225E4B681A16D2BD00208FA4 /* Price.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		225E4B561A12D8A200208FA4 /* LemonadeStandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonadeStandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		225E4B5B1A12D8A200208FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		225E4B5C1A12D8A200208FA4 /* LemonadeStandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeStandTests.swift; sourceTree = "<group>"; };
+		225E4B661A16C6F100208FA4 /* Supplies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Supplies.swift; sourceTree = "<group>"; };
+		225E4B681A16D2BD00208FA4 /* Price.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				225E4B461A12D8A200208FA4 /* AppDelegate.swift */,
 				225E4B481A12D8A200208FA4 /* ViewController.swift */,
+				225E4B661A16C6F100208FA4 /* Supplies.swift */,
+				225E4B681A16D2BD00208FA4 /* Price.swift */,
 				225E4B4A1A12D8A200208FA4 /* Main.storyboard */,
 				225E4B4D1A12D8A200208FA4 /* Images.xcassets */,
 				225E4B4F1A12D8A200208FA4 /* LaunchScreen.xib */,
@@ -213,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				225E4B491A12D8A200208FA4 /* ViewController.swift in Sources */,
+				225E4B691A16D2BD00208FA4 /* Price.swift in Sources */,
+				225E4B671A16C6F100208FA4 /* Supplies.swift in Sources */,
 				225E4B471A12D8A200208FA4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
